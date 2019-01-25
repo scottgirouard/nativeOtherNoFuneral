@@ -1,0 +1,35 @@
+{
+  "name": "nativeothernofuneral",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottgirouard/nativeOtherNoFuneral.git"
+  },
+  "author": "Scott Girouard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottgirouard/nativeOtherNoFuneral/issues"
+  },
+  "homepage": "https://github.com/scottgirouard/nativeOtherNoFuneral#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.6",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.8",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.9"
+  }
+}
